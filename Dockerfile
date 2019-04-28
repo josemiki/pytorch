@@ -2,7 +2,7 @@
 
 #FROM nvidia/cuda:9.0-devel-ubuntu16.04
 
-FROM pytorch/0.4-cuda9-cudnn7-deve
+FROM pytorch/pytorch:0.4-cuda9-cudnn7-deve
 
 MAINTAINER Jose Huaman "jmhuamanc@gmail.com"
 ENV REFRESHED_AT 2018-10-29
